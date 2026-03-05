@@ -10,10 +10,10 @@ const Piramide = require('./models/Piramide')
 let op = 0 
 
 do{
-    console.log('|-------------------------------------|')
+    console.log('|-----------------------------------|')
     console.log('|-- 1 = Prsima    ------------------|')
-    console.log('|-- 2 = Piramide        ------------------|')
-    console.log('|-------------------------------------|')
+    console.log('|-- 2 = Piramide  ------------------|')
+    console.log('|-----------------------------------|')
     console.log('\n')
 
     op = Number(rl.question('qual a sua opcao'))
